@@ -34,8 +34,8 @@ async function bootstrap() {
   }
 
   await app.listen(PORT, () => {
-    console.log(`Server started on port ${PORT}`),
-      console.log(`App environment is: ${process.env.APP_ENV}`);
+    console.log(`Сервер запущен на порту: ${PORT}`),
+      console.log(`Режим приложения: ${process.env.APP_ENV}`);
   });
 }
 
